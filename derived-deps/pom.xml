@@ -65,10 +65,7 @@
                                 <artifact>
                                     <id>io.netty:netty-codec:4.1.1.Final</id>
                                 </artifact>
-                                <artifact>
-                                    <id>de.kupzog.ktable:de.kupzog.ktable:2.2.0</id>
-                                </artifact>
-
+                     
                             </artifacts>
                         </configuration>
                     </execution>
