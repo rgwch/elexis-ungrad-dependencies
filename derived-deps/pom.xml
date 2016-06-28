@@ -86,7 +86,7 @@
                                 <artifact><id>org.apache.servicemix.bundles:org.apache.servicemix.bundles.commons-dbcp:jar:1.4_3</id></artifact>
                                 <artifact><id>au.com.bytecode:opencsv:jar:2.4</id></artifact>
                                 <artifact><id>org.apache.commons:commons-jexl:jar:2.1.1</id></artifact>
-
+                                <artifact><id>com.healthmarketscience.jackcess:jackcess:jar:2.1.4</id></artifact>
                             </artifacts>
                         </configuration>
                     </execution>
