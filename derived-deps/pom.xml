@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ungrad-dependencies</artifactId>
     <groupId>ch.rgw</groupId>
-    <version>0.1.0.SNAPSHOT</version>
+    <version>0.1.0-SNAPSHOT</version>
     <repositories>
         <repository>
             <id>maven.repo.alter</id>
@@ -16,6 +16,12 @@
             <id>central</id>
             <name>Central Repository</name>
             <url>http://repo.maven.apache.org/maven2/</url>
+        </repository>
+        <repository>
+            <id>mars</id>
+            <name>Modified Mars Repository for Ungrad</name>
+            <url>http://www.elexis.ch/ungrad/base-deps</url>
+            <layout>p2</layout>
         </repository>
     </repositories>
     <pluginRepositories>
@@ -91,6 +97,7 @@
                                 <artifact><id>org.jfree:jfreechart:jar:1.0.17</id></artifact>
                                 <artifact><id>jfree:jfreechart-swt:jar:1.0.9</id></artifact>
                                 <artifact><id>com.lowagie:itext:jar:2.0.8</id></artifact>
+                                <artifact><id>commons-io:commons-io:jar:2.4</id></artifact>
                             </artifacts>
                         </configuration>
                     </execution>
