@@ -45,6 +45,10 @@
                             <artifacts>
                                 <!-- specify your depencies here -->
                                 <!-- groupId:artifactId:version -->
+                                <artifact><id>commons-io:commons-io:jar:2.4</id></artifact>
+                                <artifact><id>ch.qos.logback:logback-core:jar:1.1.7</id></artifact>
+                                <artifact><id>ch.qos.logback:logback-classic:jar:1.1.7</id></artifact>
+                                <artifact><id>com.google.guava:guava:jar:19.0</id></artifact>
                                 <artifact>
                                     <id>io.vertx:vertx-core:3.2.1</id>
                                 </artifact>
@@ -97,7 +101,8 @@
                                 <artifact><id>org.jfree:jfreechart:jar:1.0.17</id></artifact>
                                 <artifact><id>jfree:jfreechart-swt:jar:1.0.9</id></artifact>
                                 <artifact><id>com.lowagie:itext:jar:2.0.8</id></artifact>
-                                <artifact><id>commons-io:commons-io:jar:2.4</id></artifact>
+                                <artifact><id>org.slf4j:slf4j-api:jar:1.7.21</id></artifact>
+                                <artifact><id>org.apache.commons:commons-pool2:jar:2.4.2</id></artifact>
                             </artifacts>
                         </configuration>
                     </execution>
