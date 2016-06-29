@@ -87,6 +87,10 @@
                                 <artifact><id>au.com.bytecode:opencsv:jar:2.4</id></artifact>
                                 <artifact><id>org.apache.commons:commons-jexl:jar:2.1.1</id></artifact>
                                 <artifact><id>com.healthmarketscience.jackcess:jackcess:jar:2.1.4</id></artifact>
+                                <artifact><id>jfree:jcommon:jar:1.0.16</id></artifact>
+                                <artifact><id>org.jfree:jfreechart:jar:1.0.17</id></artifact>
+                                <artifact><id>jfree:jfreechart-swt:jar:1.0.9</id></artifact>
+                                <artifact><id>com.lowagie:itext:jar:2.0.8</id></artifact>
                             </artifacts>
                         </configuration>
                     </execution>
