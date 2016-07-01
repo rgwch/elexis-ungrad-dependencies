@@ -55,6 +55,7 @@
                                 <artifact><id>org.odftoolkit:odfdom-java:0.8.6</id></artifact>
                                 <artifact><id>org.apache.httpcomponents:httpcore:jar:4.4.5</id></artifact>
                                 <artifact><id>org.apache.httpcomponents:httpclient:jar:4.5.2</id></artifact>
+                                <artifact><id>com.sun.jna:jna:3.0.9</id></artifact>
                             </artifacts>
                         </configuration>
                     </execution>
