@@ -58,6 +58,7 @@
                                 <artifact><id>com.sun.jna:jna:3.0.9</id></artifact>
                                 <artifact><id>io.vertx:vertx-core:jar:3.3.0</id></artifact>
                                 <artifact><id>io.vertx:vertx-web:jar:3.3.0</id></artifact>
+                                <artifact><id>io.vertx:vertx-hazelcast:3.3.0</id></artifact>
                             </artifacts>
                         </configuration>
                     </execution>
