@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-P2=${WEBSPACE}/p2/dependencies
+P2=${WEBSPACE2018}/p2/dependencies
 
 mkdir -p ${P2}/${BUILD_NUMBER}
 

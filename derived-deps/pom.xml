@@ -23,6 +23,14 @@
             <url>http://www.elexis.ch/ungrad/base-deps</url>
             <layout>p2</layout>
         </repository>
+        <repository>
+        <id>projects.suisse-open-exchange.healthcare-rel</id>
+        <name>projects.suisse-open-exchange.healthcare-releases</name>
+        <url>https://projects.suisse-open-exchange.healthcare/artifactory/releases</url>
+        <snapshots>
+          <enabled>false</enabled>
+        </snapshots>
+      </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
@@ -59,6 +67,7 @@
                                 <artifact><id>io.vertx:vertx-core:jar:3.3.0</id></artifact>
                                 <artifact><id>io.vertx:vertx-web:jar:3.3.0</id></artifact>
                                 <artifact><id>io.vertx:vertx-hazelcast:3.3.0</id></artifact>
+                                <artifact><id>org.ehealth_connector.communication:ehealth_connector-communication-ch</id></artifact>
                             </artifacts>
                         </configuration>
                     </execution>
