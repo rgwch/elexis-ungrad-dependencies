@@ -76,7 +76,16 @@
                   <id>io.vertx:vertx-hazelcast:3.3.0</id>
                 </artifact>
                 <artifact>
-                  <id>org.ehealth_connector:ehealth_connector-fatjar-ch::1.5.0-201711</id>
+                  <id>ca.uhn.hapi.fhir:hapi-fhir-base:3.2.0</id>
+                </artifact>
+                <artifact>
+                  <id>ca.uhn.hapi.fhir:hapi-fhir-utilities:3.2.0</id>
+                </artifact>
+                <artifact>
+                  <id>ca.uhn.hapi.fhir:hapi-fhir-structures-dstu2:3.2.0</id>
+                </artifact>
+                <artifact>
+                  <id>ca.uhn.hapi.fhir:hapi-fhir-client:3.2.0</id>
                 </artifact>
               </artifacts>
             </configuration>
