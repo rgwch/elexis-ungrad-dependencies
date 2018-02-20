@@ -75,7 +75,7 @@
                 <artifact>
                   <id>io.vertx:vertx-hazelcast:3.3.0</id>
                 </artifact>
-                <artifact>
+                <!-- artifact>
                   <id>ca.uhn.hapi.fhir:hapi-fhir-base:3.2.0</id>
                 </artifact>
                 <artifact>
@@ -86,7 +86,7 @@
                 </artifact>
                 <artifact>
                   <id>ca.uhn.hapi.fhir:hapi-fhir-client:3.2.0</id>
-                </artifact>
+                </artifact -->
               </artifacts>
             </configuration>
           </execution>
