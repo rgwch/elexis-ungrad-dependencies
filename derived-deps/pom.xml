@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ungrad-dependencies</artifactId>
     <groupId>ch.rgw</groupId>
@@ -12,18 +11,8 @@
             <name>Central Repository</name>
             <url>https://repo.maven.apache.org/maven2/</url>
         </repository>
-        <!-- repository>
-            <id>geomajas</id>
-            <name>Geomajas Repository</name>
-            <url>http://maven.geomajas.org/</url>
-        </repository -->
-        <!-- repository>
-            <id>modelio</id>
-            <name>Modelio</name>
-            <url>(https://forge.modelio.org</url>
-        </repository -->
     </repositories>
-    
+
 
     <build>
         <plugins>
@@ -36,20 +25,55 @@
                         <id>default-cli</id>
                         <configuration>
                             <artifacts>
-                                <artifact><id>junit:junit:4.12</id></artifact>
-                                <artifact><id>org.hamcrest:hamcrest:2.2</id></artifact>
-                                <artifact><id>org.hamcrest:hamcrest-library:2.2</id></artifact>
-                                <artifact><id>org.apache.commons:commons-exec:1.3</id></artifact>
-                                <artifact><id>com.fasterxml.jackson.core:jackson-core:2.7.4</id></artifact>
-                                <artifact><id>com.fasterxml.jackson.core:jackson-databind:2.7.4</id></artifact>
-                                <artifact><id>xerces:xerces:2.4.0</id></artifact>
-                                <artifact><id>org.eclipse.birt.runtime:org.apache.commons.logging:1.1.1.v201101211721</id></artifact>
-                                <artifact><id>com.sun.jna:jna:3.0.9</id></artifact>
-                                <artifact><id>com.lowagie:itext:2.0.8</id></artifact>
-                                <artifact><id>org.apache.servicemix.bundles:org.apache.servicemix.bundles.zxing:3.0.1_1</id></artifact>
-                                <artifact><id>org.jfree:jfreechart:1.0.14</id></artifact>
-                                <artifact><id>org.jfree:jfreechart-swt:1.0</id></artifact>     
-                                <artifact><id>org.modelio:de.kupzog.ktable:2.2.0</id></artifact>
+                                <artifact>
+                                    <id>junit:junit:4.12</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.hamcrest:hamcrest:2.2</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.hamcrest:hamcrest-library:2.2</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.commons:commons-exec:1.3</id>
+                                </artifact>
+                                <artifact>
+                                    <id>com.fasterxml.jackson.core:jackson-core:2.7.4</id>
+                                </artifact>
+                                <artifact>
+                                    <id>com.fasterxml.jackson.core:jackson-databind:2.7.4</id>
+                                </artifact>
+                                <artifact>
+                                    <id>com.fasterxml.jackson.core:jackson-annotations:2.7.4</id>
+                                </artifact>
+
+                                <artifact>
+                                    <id>xerces:xerces:2.4.0</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.eclipse.birt.runtime:org.apache.commons.logging:1.1.1.v201101211721</id>
+                                </artifact>
+                                <artifact>
+                                    <id>com.sun.jna:jna:3.0.9</id>
+                                </artifact>
+                                <artifact>
+                                    <id>com.lowagie:itext:2.0.8</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.servicemix.bundles:org.apache.servicemix.bundles.zxing:3.0.1_1</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.jfree:jfreechart:1.0.14</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.jfree:jfreechart-swt:1.0</id>
+                                </artifact>
+                                <artifact>
+                                    <id>de.kupzog:ktable:2.2.0</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.odftoolkit:odfdom:0.9.0</id>
+                                </artifact>
                             </artifacts>
                         </configuration>
                     </execution>
