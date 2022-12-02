@@ -1,1 +1,2 @@
-simple-server ./target/repository
+# npm -i -g simple-server
+/opt/node/bin/simple-server ./target/repository
