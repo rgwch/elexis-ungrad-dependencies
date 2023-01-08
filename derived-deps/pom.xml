@@ -26,6 +26,15 @@
                         <configuration>
                             <artifacts>
                                 <artifact>
+                                    <id>com.sun.xml.bind:jaxb-impl:2.2.2</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.glassfish.hk2:osgi-resource-locator:1.0.3</id>
+                                </artifact>
+                                <artifact>
+                                    <id>javax.annotation:javax.annotation-api:1.3.2</id>
+                                </artifact>
+                                <!-- artifact>
                                     <id>junit:junit:4.12</id>
                                 </artifact>
                                 <artifact>
@@ -73,7 +82,7 @@
                                 </artifact>
                                 <artifact>
                                     <id>org.odftoolkit:odfdom:0.9.0</id>
-                                </artifact>
+                                </artifact -->
                             </artifacts>
                         </configuration>
                     </execution>
